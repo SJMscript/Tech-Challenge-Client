@@ -2,28 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +13,85 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.onePhone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 7px 10px 35px 15px rgba(0,0,0,0.59);
+  width: 80%;
+}
+
+.onePhone-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.onePhone-title h2 {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.onePhone-title h3 {
+  font-size: 18px;
+  color: whitesmoke;
+  margin-right: 10px;
+}
+
+.onePhone-title p {
+  font-size: 16px;
+  color: whitesmoke;
+  margin-right: 10px;
+}
+
+.onePhone p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.onePhone-processor-ram p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.onePhone a {
+  display: inline-block;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.onePhone a:hover {
+  text-decoration: underline;
+}
+
+
+
+.phonesList {
+  text-align: center;
+}
+
+.phonesList h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.phonesList a {
+  display: block;
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.phonesList a:hover {
+  text-decoration: none;
+  color: #0056b3;
 }
